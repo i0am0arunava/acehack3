@@ -34,7 +34,7 @@ mongoose
   
 const io = socket(server, {
   cors: {
-    origin: "https://main--joyful-capybara-ccf172.netlify.app/",
+    origin: "https://main--joyful-capybara-ccf172.netlify.app",
     credentials: true,
   },
 });
