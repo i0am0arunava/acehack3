@@ -11,8 +11,8 @@ require("dotenv").config();
 const userRoutes=require("./routes/userRoutes");
 const messageRoutes = require("./routes/messages");
 app.use(express.json());
-const server = app.listen(process.env.PORT, () =>
-  console.log(`Server started on ${process.env.PORT}`)
+const server = app.listen(800, () =>
+  console.log(`Server started on ${800}`)
 );
 
 
